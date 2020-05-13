@@ -1,5 +1,5 @@
 G-Vrius Remover Developed by XZANATOL
-source: https://www.github.com/XZANATOL
+Profile: https://www.github.com/XZANATOL
 
 Well since im lazy to do a video tutorial about how the virus works, i will just demonestrate it's step here xd
 
