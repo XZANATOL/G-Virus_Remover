@@ -1,7 +1,5 @@
-G-Vrius Remover Developed by XZANATOL
+#G-Vrius Remover Developed by XZANATOL
 Profile: https://www.github.com/XZANATOL
-
-Well since im lazy to make a video tutorial about how the virus works, i will just demonestrate it's step here xd
 
 first of all the virus infects any executable windows files such as (exe, bat, msi) and during my testing i noticed it also infects ini and ico files
 
