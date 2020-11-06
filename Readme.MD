@@ -1,5 +1,5 @@
 #G-Vrius Remover Developed by XZANATOL
-Profile: https://www.github.com/XZANATOL
+Profile: https://www.linkedin.com/in/abdelrahman-walied-2284631b5/
 
 first of all the virus infects any executable windows files such as (exe, bat, msi) and during my testing i noticed it also infects ini and ico files
 
@@ -35,13 +35,15 @@ Well, i did say that we only need to reverse the process and that's what the scr
 Disadvantages:
 ==============
 1) the script does not auto-loop through drives. So, you will need to manually copy the script into each drive and run it from there
-The reason i did that is to not edit the C:\ by any means after you have installed the new windows (common mistakes might happen by users.. xd)
+The reason i did that is to not edit the C:\ by any means after you have installed the new windows (common mistakes may happen by users.. xd)
 
-2) the script does not rename the g*.exe to *.exe
-This will be in attempt to avoid a rare case which is if the file was actually begins with g and it was not infected.. something like "game.exe", this will be renamed to "ame.exe" making it invalid.
-Thats why i added the log_revealed.txt file to list the files with its full path then you can manually go to that directory and rename them to their original names by removing the first "g" character and check the name by yourself.
-For a shortcut just type in the search bar (*.exe) or (g*.exe) (without brackets), This will list all the revealed exes where you can directly rename them.
-    (repeat it with msi, bat,..etc)
+
+Updates:
+========
+###New (6/11/2020)
+1) the script can now rename g* files to their original name, this can be done by supplying the "Genamer" script with the "log_revealed.txt" to rename the files.
+    (This will be the same with other extensions)
+**Take Care:** Avoid a rare case which is if the file was actually begins with g and it was not infected.. something like "game.exe", this will be renamed to "ame.exe" making it invalid.
 
 
 
