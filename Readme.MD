@@ -1,4 +1,4 @@
-#G-Vrius Remover Developed by XZANATOL
+#G-Vrius Remover Developed by XZANATOL<br/>
 Profile: https://www.linkedin.com/in/abdelrahman-walied-2284631b5/
 
 first of all the virus infects any executable windows files such as (exe, bat, msi) and during my testing i noticed it also infects ini and ico files
@@ -42,7 +42,7 @@ Updates:
 ========
 ###New (6/11/2020)
 1) the script can now rename g* files to their original name, this can be done by supplying the "Genamer" script with the "log_revealed.txt" to rename the files.
-    (This will be the same with other extensions)
+    (This will be the same with other extensions)<br/>
 **Take Care:** Avoid a rare case which is if the file was actually begins with g and it was not infected.. something like "game.exe", this will be renamed to "ame.exe" making it invalid.
 
 
@@ -51,4 +51,5 @@ Updates:
 If you are interested on giving the script and the virus a try, I've uploaded a compressed sample for the virus in the "Sample" folder. You can download it into your virtual environment and test it (just make sure that you run the hidden remover file not the infected one as the virus can infect the remover too.. xd )
 
 NOTE: I'M NOT RESPONSIBLE FOR ANY ILLEGAL USE OF THE VIRUS SAMPLE.
+<br/>
 decompression password: gvirus123
