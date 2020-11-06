@@ -62,31 +62,31 @@ REM removing hidden and system attributes from renamed files
 for /r %%x in (g*.exe) do (
 	attrib -H -S "%%x" /S /D
 	echo Revealed %%x
-	echo Revealed %%x >> log_revealed.txt
+	echo %%x >> log_revealed.txt
 )
 
 for /r %%x in (g*.bat) do (
 	attrib -H -S "%%x" /S /D
 	echo Revealed %%x
-	echo Revealed %%x >> log_revealed.txt	
+	echo %%x >> log_revealed.txt	
 )
 
 for /r %%x in (g*.ico) do (
 	attrib -H -S "%%x" /S /D
 	echo Revealed %%x
-	echo Revealed %%x >> log_revealed.txt	
+	echo %%x >> log_revealed.txt	
 )
 
 for /r %%x in (g*.ini) do (
 	attrib -H -S "%%x" /S /D
 	echo Revealed %%x
-	echo Revealed %%x >> log_revealed.txt	
+	echo %%x >> log_revealed.txt	
 )
 
 for /r %%x in (g*.bat) do (
 	attrib -H -S "%%x" /S /D
 	echo Revealed %%x
-	echo Revealed %%x >> log_revealed.txt	
+	echo %%x >> log_revealed.txt	
 )
 echo.=================
 echo.Done :D
